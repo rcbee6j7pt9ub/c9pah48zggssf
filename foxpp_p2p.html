@@ -8,7 +8,6 @@
 <script src="//cdn.jsdelivr.net/npm/shaka-player@2.5.10/dist/shaka-player.compiled.min.js"></script>
 <script src="//cdn.jsdelivr.net/gh/clappr/dash-shaka-playback@latest/dist/dash-shaka-playback.external.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/cdnbye-shaka@latest"></script>
-<script src='//cdn.jsdelivr.net/gh/clappr/clappr-level-selector-plugin@latest/dist/level-selector.min.js' type='text/javascript'></script>
 <style type="text/css">
 body {
     position: absolute;
@@ -41,7 +40,7 @@ body {
 <script>
 
     var player = new Clappr.Player({
-        autoPlay: true,plugins: [LevelSelector],
+        autoPlay: true,
         mediacontrol: {seekbar: "#06F6EB", buttons: "#06F6EB"}, 
         parentId: "#video",
         source: "https://chromecast.cvattv.com.ar/live/c3eds/Fox_Sports_Premiun_HD/SA_Live_dash_enc_2A/Fox_Sports_Premiun_HD.mpd",
