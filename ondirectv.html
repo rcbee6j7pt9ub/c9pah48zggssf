@@ -1,0 +1,39 @@
+
+<script type="text/javascript" charset="utf-8" async="" src="https://ssl.p.jwpcdn.com/player/v/8.17.6/jwpsrv.js"></script>
+<script src="https://content.jwplatform.com/libraries/KB5zFt7A.js"> </script>
+<script charset="utf-8" src="https://ssl.p.jwpcdn.com/player/v/8.17.6/jwplayer.core.controls.js"></script>
+<script charset="utf-8" src="/https://ssl.p.jwpcdn.com/player/v/8.17.6/provider.shaka.js"></script>
+
+<script> jwplayer.key='XSuP4qMl+9tK17QNb+4+th2Pm9AWgMO/cYH8CI0HGGr7bdjo';
+</script>
+ <div id="player"></div>
+ <script>
+        var playerInstance=jwplayer("player"); 
+        playerInstance.setup( {
+            playlist: [ {
+            title : "MEGA TELEVISION",
+             description: "https://megatelevisionhd.com",
+             image: "https://i.ytimg.com/vi/9wj7EF2mlKM/maxresdefault.jpg",
+                "sources": [ {
+                    "default": false,
+"file":'https://dtv-latam-abc.akamaized.net/dash/live/2017813/dtv/dtv-ondirectvsouth/master.mpd',
+"drm": {
+                       "widevine": {
+                            "url": "https://tucumantvdigital.xyz/ondirectv_widevine.php"
+                       }
+                   }
+                   , "label": "0", "type": "mpd"
+               }
+               ]
+           }
+           ], width: "100%",  height: "100%", aspectratio: "16:9", autostart: false, cast: {}
+           ,
+          skin: {
+       name: "black",
+       active: "",
+       inactive: "",
+       background: ""
+    }
+       }
+       );
+</script>
